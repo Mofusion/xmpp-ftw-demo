@@ -57,6 +57,7 @@
   "subdomain": "xmpp-ftw",
   "scripts": {
     "start": "node index.js",
+    "prod": "xmpp-ftw-demo",
     "develop": "nodemon --watch lib --watch index.js --watch node_modules index.js",
     "test": "grunt test"
   },

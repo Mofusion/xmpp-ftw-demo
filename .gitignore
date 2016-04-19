@@ -9,3 +9,8 @@ public/scripts/primus.js
 *~
 xmpp-ftw.js
 config/logger.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
